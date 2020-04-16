@@ -8,6 +8,76 @@ img {
   height:auto; //maintains aspect ratio
 }
 
+
+/*ALL THE DIVS*/
+.nav{
+
+}
+
+.nav1 {
+
+}
+
+.nav2 {
+
+}
+
+.nav3 {
+
+}
+
+.nav4 {
+
+}
+
+.header {
+
+}
+
+.body {
+
+}
+
+.mainsearch {
+  border-radius:10px;
+}
+
+.extrasearch {
+
+}
+
+.special {
+
+}
+
+.footer {
+
+}
+
+.footer1 {
+
+}
+
+.footer2 {
+
+}
+
+.footer3 {
+
+}
+
+.footer4 {
+
+}
+
+.footer5 {
+
+}
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~ Attempting to use only grid for layout ~~~~~~~~~~~~~~~~~~~~~~~
 .container {
   display:grid;
   grid-template-columns:repeat(3, auto);
@@ -73,4 +143,4 @@ img {
   border: 1px dotted blue;
   grid-area: 6/3/7/4;
 }
-
+*/

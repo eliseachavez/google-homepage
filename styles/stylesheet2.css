@@ -1,0 +1,221 @@
+html {
+  background: rgb(255,255,255);
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  max-width:100%; //should not exceed container siz
+}
+
+
+/*ALL THE DIVS*/
+nav {
+  display: block;
+  max-width:50%;
+  margin: auto;
+  text-align:center;
+  position:fixed;
+  top:0px;
+  left:50%;
+}
+
+.nav1 {
+}
+
+.nav2 {
+
+}
+
+.nav3 {
+
+}
+
+.nav4 {
+
+}
+
+header {
+
+}
+
+body {
+  display:block;
+  //position: absolute;
+  //top:30%;
+  font-family:arial,sans-serif;
+  text-align:-webkit-center;
+}
+
+.footerbar {
+  display:block;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height:35px;
+  width:100%;
+  position:fixed;
+  bottom:0px;
+  line-height: 40px;
+}
+
+li.nav {
+  color:rgba(0,0,0,0.87);
+}
+
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;  
+}
+
+li {
+  display:inline;
+}
+a {
+  text-decoration:none;
+  color:#1a0dab;
+  font-family:arial,sans-serif;
+  font-size:small;
+
+}
+
+a:visited {
+  color:#609;
+  text-decoration:underline;
+}
+form {
+  display:block;
+  max-width:50%;
+  text-align:center;
+}
+.mainsearch {
+  border-radius:10px;
+  margin: auto;
+}
+
+.extrasearch {
+  text-align:center;
+  font-family:"Arial", sans-serif;
+}
+
+button {
+    border:none;
+    border-radius:4px;
+    padding-top:0px;
+    padding-right:16px;
+    padding-bottom:0px;
+    padding-left:16px;
+    background-color:#f2f2f2;
+    color:#5F6368;
+    font-family:arial,sans-serif;
+    font-size:14px;
+    margin: 11px 4px;
+    line-height:27px;
+    height:36px;
+    min-width:54px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.special {
+  text-align:center;
+}
+
+
+footer {
+  display:block;
+  margin:auto;
+  max-width:50%;
+  text-align:center;
+  position:fixed;
+  bottom:0px;
+  left:50%;
+}
+
+.footer1 {
+}
+
+.footer2 {
+}
+
+.footer3 {
+
+}
+
+.footer4 {
+
+}
+
+.footer5 {
+
+}
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~ Attempting to use only grid for layout ~~~~~~~~~~~~~~~~~~~~~~~
+.container {
+  display:grid;
+  grid-template-columns:repeat(3, auto);
+  grid-template-rows:repeat(6,1fr);
+  background: yellow;
+  text-align: center;
+  grid-gap:5px;
+}
+
+.nav1 {
+  border: 1px solid blue;
+  //order:1:
+  grid-area: 1/1/2/2;
+  //display: flex;
+  //flex-flow: column;
+  //border-radius: 1 rem;
+}
+
+.header {
+  border: 2px dotted red;
+  //order:3;
+  background:lightskyblue;
+  grid-area:2/2/4/3;
+}
+
+.mainsearch {
+  background:paleturquoise;
+  border: 2px dotted red;
+  //order:4;
+  grid-area:3/2/4/3;
+}
+
+.extrasearch {
+  background:purple;
+  border: 2px dotted red;
+  //order:5;
+  grid-area:4/2/5/3;
+}
+
+.special {
+  background: pink;
+  border: 2px dotted red;
+  //order:6;
+  grid-area:5/2/6/3;
+}
+
+.nav2 {
+  border: 1px solid green;
+  //order:2;
+  grid-area:1/3/2/4;
+}
+
+.footer1 {
+  //display: flex;
+  //flex-flow: column;
+  order:7;
+  border: 1px dotted red;
+  grid-area:6/1/7/2;
+}
+
+.footer2 {
+  order:8;
+  border: 1px dotted blue;
+  grid-area: 6/3/7/4;
+}
+*/
